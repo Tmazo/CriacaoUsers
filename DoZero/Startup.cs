@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Repository;
+using Repository.Interfaces;
+using Services;
+using Services.Interfaces;
 
 namespace DoZero
 {
@@ -25,7 +29,12 @@ namespace DoZero
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services
+                .AddSingleton<IUsersRepository, UsersRepository>()
+                .AddSingleton<IUsersServices, UsersServices>();
+
             services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

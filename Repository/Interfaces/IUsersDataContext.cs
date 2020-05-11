@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Repository.Interfaces
 {
-    public interface IUsersRepository
+    public interface IUsersDataContext
     {
-        string GetAll();
+        string ConnectionString();
     }
 }

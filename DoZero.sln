@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "DoZero\Api.csproj", "{E922EF36-D213-479F-90E0-C7FE7CB88C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "DoZero\Api.csproj", "{E922EF36-D213-479F-90E0-C7FE7CB88C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{E4C812C7-C0D1-4C05-96CE-37048A707C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{E4C812C7-C0D1-4C05-96CE-37048A707C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{3C628E87-5553-41BE-850B-F318A528A175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{3C628E87-5553-41BE-850B-F318A528A175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{38DAB721-CEE4-487F-BAFE-DA6E286147AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{38DAB721-CEE4-487F-BAFE-DA6E286147AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

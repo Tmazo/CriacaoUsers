@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Services.Interfaces
 {
-    interface IUsersServices
+    public interface IUsersServices
     {
         string GetAll();
 

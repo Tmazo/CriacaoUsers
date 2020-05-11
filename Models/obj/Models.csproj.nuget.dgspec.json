@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\Models\\Models.csproj": {}
+    "C:\\Users\\Bruno\\CriacaoUsers\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\Models\\Models.csproj": {
+    "C:\\Users\\Bruno\\CriacaoUsers\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\CriacaoUsers\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Thiago Ziola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\CriacaoUsers\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\CriacaoUsers\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thiago Ziola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://directoneapp.pkgs.visualstudio.com/_packaging/RogueOne/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine2/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -37,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

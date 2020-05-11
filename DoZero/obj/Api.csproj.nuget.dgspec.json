@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\DoZero\\Api.csproj": {}
+    "C:\\Users\\Bruno\\CriacaoUsers\\DoZero\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\DoZero\\Api.csproj": {
+    "C:\\Users\\Bruno\\CriacaoUsers\\DoZero\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\DoZero\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\CriacaoUsers\\DoZero\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\DoZero\\Api.csproj",
-        "packagesPath": "C:\\Users\\Thiago Ziola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago Ziola\\source\\repos\\DoZero\\DoZero\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\CriacaoUsers\\DoZero\\Api.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\CriacaoUsers\\DoZero\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thiago Ziola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,11 +22,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://directoneapp.pkgs.visualstudio.com/_packaging/RogueOne/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine2/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Bruno\\CriacaoUsers\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\CriacaoUsers\\Repository\\Repository.csproj"
+              },
+              "C:\\Users\\Bruno\\CriacaoUsers\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\CriacaoUsers\\Services\\Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -51,6 +61,132 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\CriacaoUsers\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\CriacaoUsers\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\Bruno\\CriacaoUsers\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\CriacaoUsers\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://directoneapp.pkgs.visualstudio.com/_packaging/RogueOne/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine2/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruno\\CriacaoUsers\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruno\\CriacaoUsers\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\Bruno\\CriacaoUsers\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\CriacaoUsers\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://directoneapp.pkgs.visualstudio.com/_packaging/RogueOne/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/directoneapp/_packaging/OneToOneEngine2/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
