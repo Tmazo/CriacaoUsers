@@ -1,0 +1,5 @@
+C:\Users\Bruno\CriacaoUsers\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+C:\Users\Bruno\CriacaoUsers\Services\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\Bruno\CriacaoUsers\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\Bruno\CriacaoUsers\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\Bruno\CriacaoUsers\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
